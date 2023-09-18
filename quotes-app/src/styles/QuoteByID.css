@@ -1,0 +1,36 @@
+.QuoteByID {
+  text-align: center;
+  margin: 20px;
+}
+
+#quote-id-input {
+  margin: 20px 0;
+}
+
+#quote-id-input label {
+  font-weight: bold;
+}
+
+#quote-id-input input {
+  padding: 5px;
+  margin-right: 10px;
+  width: 100px;
+}
+
+#quote-container {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+#quote-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#quote-container p {
+  text-align: left;
+  font-size: 16px;
+  margin: 5px 0;
+}
