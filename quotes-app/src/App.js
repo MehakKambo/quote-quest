@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [quotes, setQuotes] = useState([]);
-  const [numQuotes, setNumQuotes] = useState(3); // Default to 3 quotes
+  const [numQuotes, setNumQuotes] = useState(1); // Default to 1 quote
   const [isFetching, setIsFetching] = useState(false);
 
   const getRandomQuotes = async () => {
