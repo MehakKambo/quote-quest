@@ -1,0 +1,64 @@
+.ListQuotesByCategory {
+    text-align: center;
+}
+
+.categoryNameInput {
+    margin-bottom: 20px;
+}
+    
+.categoryNameInput h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.categoryNameInput label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.categoryNameInput input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.categoryNameInput button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.categoryNameInput button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.quotes {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    margin: 50px;
+    padding-left: 35px;
+  }
+  
+.quotes:hover {
+    transform: scale(1.05);
+}
+
+.quotes h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.quotes p {
+    font-size: 1rem;
+}

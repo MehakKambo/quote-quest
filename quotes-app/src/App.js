@@ -5,7 +5,8 @@ import Home from './components/Home'
 import RandomQuote  from './components/RandomQuote';
 import QuoteByID from './components/QuoteByID';
 import Authors from './components/ListAuthors';
-import AuthorName from './components/ListQuotesByAuthorName'
+import AuthorName from './components/ListQuotesByAuthorName';
+import CategoryName from './components/ListQuotesByCategoryName';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/quotes/quoteID" exact element={<QuoteByID/>} />
           <Route path="/authors" exact element={<Authors/>} />
           <Route path="/quotes/authorName" exact element={<AuthorName/>} />
+          <Route path="/quotes/categoryName" exact element={<CategoryName/>} />
         </Routes>
       </Router>
     </main>
