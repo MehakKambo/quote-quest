@@ -1,3 +1,5 @@
 # quotes-generator
 
-[![Demo](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FmYtkortoUUI)](https://youtu.be/mYtkortoUUI)
+
+https://github.com/MehakKambo/quotes-generator/assets/69995894/ddcf2121-91db-4325-9e19-946478dfe76e
+
