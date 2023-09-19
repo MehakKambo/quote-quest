@@ -22,7 +22,35 @@
     font-size: 18px;
     margin-right: 10px;
   }
+
+  .feat {
+    margin: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+  }
   
+  .feat {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .feat:hover {
+    transform: scale(1.05);
+  }
+  
+  .feat h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feat p {
+    font-size: 1rem;
+  }
 
   input[type="number"] {
     width: 60px;
