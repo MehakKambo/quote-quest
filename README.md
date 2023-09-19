@@ -1,2 +1,3 @@
 # quotes-generator
-React frontend for Flask Quotes API
+
+[!Alt Text](https://youtu.be/mYtkortoUUI)
