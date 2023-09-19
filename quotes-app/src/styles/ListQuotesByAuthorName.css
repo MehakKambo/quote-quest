@@ -1,0 +1,132 @@
+/* ListQuotesByAuthorName.css */
+
+.ListQuotesByAuthorName {
+margin: 0;
+text-align: center;
+font-family: Arial, sans-serif;
+}
+
+.header {
+margin-bottom: 20px;
+}
+
+.header a {
+text-decoration: none;
+}
+
+.header h1 {
+font-size: 28px;
+color: #333;
+}
+
+.authorNameInput {
+margin-bottom: 20px;
+}
+
+.authorNameInput h1 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.authorNameInput label {
+font-size: 18px;
+font-weight: bold;
+margin-right: 10px;
+}
+
+.authorNameInput input[type="text"] {
+padding: 5px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.authorNameInput button {
+padding: 10px 20px;
+font-size: 18px;
+background-color: #007BFF;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.authorNameInput button:disabled {
+background-color: #ccc;
+cursor: not-allowed;
+}
+
+.quoteContainer {
+text-align: left;
+}
+
+.quoteContainer ul {
+list-style-type: none;
+padding: 0;
+}
+
+.quoteContainer li {
+border: 1px solid #ccc;
+padding: 10px;
+margin: 10px 0;
+border-radius: 5px;
+background-color: #f9f9f9;
+}
+
+.quoteContainer li p {
+font-size: 16px;
+margin: 5px 0;
+}
+
+.quotes {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    margin: 50px;
+    padding-left: 35px;
+  }
+  
+.quotes:hover {
+    transform: scale(1.05);
+}
+
+.quotes h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.quotes p {
+    font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .authorNameInput h1 {
+        font-size: 20px;
+    }
+
+    .authorNameInput label {
+        font-size: 16px;
+    }
+
+    .authorNameInput input[type="text"] {
+        font-size: 14px;
+    }
+
+    .authorNameInput button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .quoteContainer li {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
