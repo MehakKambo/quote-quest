@@ -7,7 +7,7 @@ function Home() {
     <div className="Home">
       <header>
         <a href='/'>
-          <h1>Quotes API</h1>
+          <h1>Welcome to the World of Wisdom</h1>
         </a>
       </header>
       <main>
@@ -75,7 +75,7 @@ function Home() {
           <div className="feature">
             <h2>Contribute to this project</h2>
             <p>Join our open-source community and showcase your coding skills by contributing to this project. Help us make this platform even better!</p>
-            <Link to="https://github.com/MehakKambo/quotes-api">
+            <Link to="https://github.com/MehakKambo/quotes-api" target='_blank'>
               <button className="btn-primary">Contribute</button>
             </Link>
           </div>

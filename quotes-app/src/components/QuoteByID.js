@@ -35,7 +35,7 @@ function QuoteByID() {
   return (
     <div className="QuoteByID">
       <header>
-        <h1>Quotes API</h1>
+        <h1>Welcome to the World of Wisdom</h1>
         <a href='/' className='home-button'>Home</a>
       </header>
       <h2>Quote by ID</h2>

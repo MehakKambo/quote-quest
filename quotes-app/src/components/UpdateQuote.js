@@ -40,7 +40,7 @@ function UpdateQuote() {
         <div className="UpdateQuote">
             <header>
                 <a href='/'>
-                    <h1>Quotes API</h1>
+                    <h1>Welcome to the World of Wisdom</h1>
                 </a>
                 <a href='/' className='home-button'>Home</a>
             </header>

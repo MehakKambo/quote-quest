@@ -61,7 +61,7 @@ function ListQuotesByCategory() {
     <div className="ListQuotesByCategory">
       <header>
         <a href='/'>
-          <h1>Quotes API</h1>
+          <h1>Welcome to the World of Wisdom</h1>
           <a href='/' className='home-button'>Home</a>
         </a>
       </header>

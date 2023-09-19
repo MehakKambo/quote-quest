@@ -22,7 +22,9 @@ function RandomQuote() {
   return (
     <div className="RandomQuote">
       <header>
-        <a href='/'><h1>Quotes API</h1></a>
+        <a href='/'>
+          <h1>Welcome to the World of Wisdom</h1>
+        </a>
         <a href='/' className='home-button'>Home</a>
       </header>
       <br></br><br></br>
@@ -42,17 +44,17 @@ function RandomQuote() {
           {isFetching ? 'Fetching Quotes...' : 'Get Random Quotes'}
         </button>
       </div>
-        {quotes.map((quote, index) => (
-          <section className="features">
-            <div className="feature">
-              <div className='quoteContent'>
-                <p><strong>Quote:</strong> {quote.quote}</p>
-                <p><strong>Author:</strong> {quote.author}</p>
-                <p><strong>Category:</strong> {quote.category}</p>
-              </div>
+      {quotes.map((quote, index) => (
+        <section className="features">
+          <div className="feature">
+            <div className='quoteContent'>
+              <p><strong>Quote:</strong> {quote.quote}</p>
+              <p><strong>Author:</strong> {quote.author}</p>
+              <p><strong>Category:</strong> {quote.category}</p>
             </div>
-          </section>
-        ))}
+          </div>
+        </section>
+      ))}
     </div>
   );
 }
