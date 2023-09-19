@@ -5,6 +5,18 @@
     text-align: center;
 }
 
+.home-button {
+    background-color: #008bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home-button:hover {
+    background-color: darkblue;
+}
+
 .quoteForm {
     max-width: 600px;
     margin: 0 auto;
@@ -18,7 +30,7 @@
 
 .quoteForm:hover {
     transform: scale(1.05);
-  }
+}
 
 h1 {
     font-size: 1.25rem;
@@ -61,4 +73,3 @@ button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
 }
-  

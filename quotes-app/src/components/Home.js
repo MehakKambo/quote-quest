@@ -22,6 +22,13 @@ function Home() {
           <div className="feature">
             <h2>Contribute Quotes</h2>
             <p>Share your favorite quotes with the community. Let your wisdom inspire others.</p>
+            <Link to="/quotes/newQuote">
+              <button className="btn-primary">Contribute</button>
+            </Link>
+          </div>
+          <div className="feature">
+            <h2>Contribute to this project</h2>
+            <p>Show us your coding skills by Contributing to this open-source project.</p>
             <Link to="https://github.com/MehakKambo/quotes-api">
               <button className="btn-primary">Contribute</button>
             </Link>
@@ -35,9 +42,6 @@ function Home() {
           </div>
         </section>
       </main>
-      <footer>
-        <p>&copy; 2023 Quotes API</p>
-      </footer>
     </div>
   );
 }

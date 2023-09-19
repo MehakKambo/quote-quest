@@ -23,6 +23,7 @@ function RandomQuote() {
     <div className="RandomQuote">
       <header>
         <a href='/'><h1>Quotes API</h1></a>
+        <a href='/' className='home-button'>Home</a>
       </header>
       <br></br><br></br>
       <h2>Random Quotes</h2>

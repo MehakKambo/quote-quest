@@ -24,7 +24,9 @@
   }
   
   header {
-    text-align: center;
+    text-align: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #976b6b;
     color: #180000;
     padding: 1rem 0;

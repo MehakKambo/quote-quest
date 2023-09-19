@@ -62,6 +62,7 @@ function ListQuotesByCategory() {
       <header>
         <a href='/'>
           <h1>Quotes API</h1>
+          <a href='/' className='home-button'>Home</a>
         </a>
       </header>
       <div className='categoryNameInput'>

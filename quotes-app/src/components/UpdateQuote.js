@@ -42,6 +42,7 @@ function UpdateQuote() {
                 <a href='/'>
                     <h1>Quotes API</h1>
                 </a>
+                <a href='/' className='home-button'>Home</a>
             </header>
             <div className='update-form'>
                 <h1>Update Quote Request</h1>
