@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  a {
+    text-decoration: none;
+  }
   
   body {
     font-family: Arial, sans-serif;
@@ -37,10 +41,12 @@
   
   .features {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    margin-top: 2rem;
+    margin: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
   
   .feature {
@@ -68,8 +74,9 @@
   .btn-primary {
     background-color: #007bff;
     color: #fff;
-    border: none;
+    border-radius: 5px;
     padding: 0.5rem 1rem;
+    margin-top: 15px;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;

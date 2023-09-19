@@ -6,21 +6,23 @@ function Home() {
   return (
     <div className="Home">
       <header>
-        <h1>Quotes API</h1>
+        <a href='/'>
+          <h1>Quotes API</h1>
+        </a>
       </header>
       <main>
         <section className="features">
           <div className="feature">
             <h2>Explore Quotes</h2>
             <p>Discover a world of wisdom, inspiration, and motivation with our collection of quotes.</p>
-            <Link to="/quotes">
+            <Link to="/quotes/random">
               <button className="btn-primary">Get Started</button>
             </Link>
           </div>
           <div className="feature">
             <h2>Contribute Quotes</h2>
             <p>Share your favorite quotes with the community. Let your wisdom inspire others.</p>
-            <Link to="/contribute">
+            <Link to="https://github.com/MehakKambo/quotes-api">
               <button className="btn-primary">Contribute</button>
             </Link>
           </div>
