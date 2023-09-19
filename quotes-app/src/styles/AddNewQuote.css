@@ -17,6 +17,10 @@
     background-color: darkblue;
 }
 
+#authorName {
+    width: 550px;
+}
+
 .quoteForm {
     max-width: 600px;
     margin: 0 auto;

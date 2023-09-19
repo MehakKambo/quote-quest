@@ -23,6 +23,10 @@
     margin-right: 10px;
   }
 
+  #numCategories {
+    width: 150px;
+  }
+
   .feat {
     margin: 60px;
     margin-left: 80px;

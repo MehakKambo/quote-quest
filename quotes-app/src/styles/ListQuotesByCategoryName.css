@@ -11,6 +11,11 @@
     margin-bottom: 10px;
 }
 
+#categoryName{
+    width: 250px;
+    height: 40px;
+}
+
 .categoryNameInput label {
     font-size: 18px;
     font-weight: bold;

@@ -19,6 +19,10 @@ font-size: 28px;
 color: #333;
 }
 
+#authorName {
+    width: 400px;
+    height: 40px;
+}
 .authorNameInput {
 margin-bottom: 20px;
 }

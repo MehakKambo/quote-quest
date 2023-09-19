@@ -20,6 +20,10 @@ button {
   text-align: left;
 }
 
+#numAuthors {
+  width: 150px;
+}
+
 .feat {
   background-color: #fff;
   padding: 2rem;

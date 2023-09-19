@@ -8,6 +8,10 @@ h1 {
   color: #333;
 }
 
+#numQuotes {
+  width: 150px;
+} 
+
 #quote-container {
   margin: 20px;
   padding: 10px;
