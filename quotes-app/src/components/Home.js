@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="Home">
       <header>
-        <h1>Welcome to Quotes API</h1>
+        <h1>Quotes API</h1>
       </header>
       <main>
         <section className="features">

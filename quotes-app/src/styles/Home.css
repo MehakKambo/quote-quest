@@ -6,7 +6,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-color: #d39d9d;;
+    background-color: #d39d9d;
   }
   
   .home {
@@ -21,7 +21,6 @@
   
   header {
     text-align: center;
-    
     background-color: #976b6b;
     color: #180000;
     padding: 1rem 0;

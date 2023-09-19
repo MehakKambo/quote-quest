@@ -21,6 +21,9 @@ function RandomQuote() {
 
   return (
     <div className="RandomQuote">
+      <header>
+        <h1>Quotes API</h1>
+      </header>
       <h1>Quotes App</h1>
       <div id="num-quotes-input">
         <label htmlFor="numQuotes">Number of Quotes:</label>

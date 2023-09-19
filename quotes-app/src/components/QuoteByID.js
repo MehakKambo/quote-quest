@@ -34,7 +34,10 @@ function QuoteByID() {
 
   return (
     <div className="QuoteByID">
-      <h1>Quote by ID</h1>
+      <header>
+        <h1>Quotes API</h1>
+      </header>
+      <h2>Quote by ID</h2>
       <div id="quote-id-input">
         <label htmlFor="quoteId">Enter Quote ID: </label>
         <input

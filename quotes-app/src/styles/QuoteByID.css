@@ -1,6 +1,19 @@
 .QuoteByID {
   text-align: center;
-  margin: 20px;
+  margin: 0;
+  background-color: #d39d9d;
+}
+
+header {
+  text-align: center;
+  background-color: #976b6b;
+  color: #180000;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2rem;
 }
 
 #quote-id-input {
@@ -18,13 +31,13 @@
 }
 
 #quote-container {
-  margin: 20px 0;
+  margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
   background-color: #f9f9f9;
 }
 
-#quote-container h1 {
+#quote-container h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
