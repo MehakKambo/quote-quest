@@ -66,7 +66,7 @@ function ListAuthors() {
           {isFetching ? 'Fetching Authors...' : 'Get Authors'}
         </button>
       </div>
-      <div className='feature'>
+      <div className='feat'>
         {authors.map((author, index) => (
           <ul key={index}><li><p>{author}</p></li></ul>
         ))}
