@@ -13,12 +13,42 @@ function Home() {
       <main>
         <section className="features">
           <div className="feature">
-            <h2>Explore Quotes</h2>
+            <h2>Explore Random Quotes</h2>
             <p>Discover a world of wisdom, inspiration, and motivation with our collection of quotes.</p>
             <Link to="/quotes/random">
               <button className="btn-primary">Get Started</button>
             </Link>
           </div>
+          <div className="feature">
+            <h2>Discover our Authors</h2>
+            <p>Explore the diverse world of authors and their profound insights, ideas, and creativity.</p>
+            <Link to="/authors">
+              <button className="btn-primary">Browse Authors</button>
+            </Link>
+          </div>
+          <div className="feature">
+            <h2>Explore Quotes by Individual Author</h2>
+            <p>Delve into the wisdom and insights of your favorite authors through their quotes.</p>
+            <Link to="/quotes/authorName">
+              <button className="btn-primary">Find Quotes by Author</button>
+            </Link>
+          </div>
+
+          <div className="feature">
+            <h2>Discover Categories of Quotes</h2>
+            <p>Explore various categories of quotes, from love and wisdom to motivation and inspiration.</p>
+            <Link to="/categories">
+              <button className="btn-primary">Browse Categories</button>
+            </Link>
+          </div>
+          <div className="feature">
+            <h2>Explore Quotes by Category</h2>
+            <p>Discover quotes that fit your interests and explore various categories of wisdom, motivation, and more.</p>
+            <Link to="/quotes/categoryName">
+              <button className="btn-primary">Browse by Category</button>
+            </Link>
+          </div>
+
           <div className="feature">
             <h2>Contribute Quotes</h2>
             <p>Share your favorite quotes with the community. Let your wisdom inspire others.</p>
@@ -27,17 +57,19 @@ function Home() {
             </Link>
           </div>
           <div className="feature">
+            <h2>Update a Quote</h2>
+            <p>Have you found an error or want to suggest an improvement for a quote? Submit a request to update it, and our experts will review your suggestion.</p>
+            <Link to="/quotes/updateQuote">
+              <button className="btn-primary">Submit Update Request</button>
+            </Link>
+          </div>
+
+
+          <div className="feature">
             <h2>Contribute to this project</h2>
             <p>Show us your coding skills by Contributing to this open-source project.</p>
             <Link to="https://github.com/MehakKambo/quotes-api">
               <button className="btn-primary">Contribute</button>
-            </Link>
-          </div>
-          <div className="feature">
-            <h2>Learn About Us</h2>
-            <p>Discover the story behind Quotes API and how we're dedicated to spreading positivity.</p>
-            <Link to="/about">
-              <button className="btn-primary">About Us</button>
             </Link>
           </div>
         </section>
