@@ -20,7 +20,7 @@ function Home() {
             </Link>
           </div>
           <div className="feature">
-            <h2>Discover our Authors</h2>
+            <h2>Discover Inspiring Authors</h2>
             <p>Explore the diverse world of authors and their profound insights, ideas, and creativity.</p>
             <Link to="/authors">
               <button className="btn-primary">Browse Authors</button>
@@ -31,6 +31,13 @@ function Home() {
             <p>Delve into the wisdom and insights of your favorite authors through their quotes.</p>
             <Link to="/quotes/authorName">
               <button className="btn-primary">Find Quotes by Author</button>
+            </Link>
+          </div>
+          <div className="feature">
+            <h2>Find a Quote by its Unique ID</h2>
+            <p>Search for a specific quote using its unique identifier. Dive into the wisdom, insights, and inspiration behind each quote.</p>
+            <Link to="/quotes/quoteID">
+              <button className="btn-primary">Find Quote by ID</button>
             </Link>
           </div>
 
@@ -67,7 +74,7 @@ function Home() {
 
           <div className="feature">
             <h2>Contribute to this project</h2>
-            <p>Show us your coding skills by Contributing to this open-source project.</p>
+            <p>Join our open-source community and showcase your coding skills by contributing to this project. Help us make this platform even better!</p>
             <Link to="https://github.com/MehakKambo/quotes-api">
               <button className="btn-primary">Contribute</button>
             </Link>
