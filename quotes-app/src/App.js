@@ -9,6 +9,7 @@ import Categories from './components/ListCategories';
 import AuthorName from './components/ListQuotesByAuthorName';
 import CategoryName from './components/ListQuotesByCategoryName';
 import AddNewQuote from './components/AddNewQuote';
+import UpdateQuote from './components/UpdateQuote';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <Route path="/quotes/authorName" exact element={<AuthorName/>} />
           <Route path="/quotes/categoryName" exact element={<CategoryName/>} />
           <Route path="/quotes/newQuote" exact element={<AddNewQuote/>} />
-          
+          <Route path="/quotes/updateQuote" exact element={<UpdateQuote/>} />
         </Routes>
       </Router>
     </main>

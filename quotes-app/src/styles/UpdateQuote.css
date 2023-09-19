@@ -1,0 +1,65 @@
+/* UpdateQuote.css */
+
+.UpdateQuote {
+  text-align: center;
+}
+
+
+.update-form {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 80px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+.column {
+  display: inline-block;
+  width: 48%;
+  /* Adjust the width as needed */
+  margin-right: 2%;
+  /* Add spacing between columns */
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.update-message {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+.update-message.error {
+  color: red;
+}
